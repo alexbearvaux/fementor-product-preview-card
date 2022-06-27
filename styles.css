@@ -1,0 +1,107 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white-chanel: hsl(0, 0%, 100%);
+  --card-text: 14px;
+}
+
+body {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  width: 500px;
+  height: 400px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.perfume-image {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 400px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.grey-title {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 4px;
+  color: var(--dark-grayish-blue);
+  font-weight: lighter;
+  font-size: 0.9rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.text {
+  color: var(--dark-grayish-blue);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: var(--dark-cyan);
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: var(--white-chanel);
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.actual-price {
+  font-size: 1.5rem;
+  color: var(--dark-cyan);
+  font-weight: bold;
+}
+
+.old-price {
+  font-size: 0.7rem;
+  margin-left: 25px;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  color: var(--dark-grayish-blue);
+}
+
+.attr-link {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  font-weight: bold;
+  cursor: pointer;
+}
